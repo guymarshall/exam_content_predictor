@@ -1,0 +1,16 @@
+4.1.1 happened last year but 4.1.2 didn't, so 4.1.2 is more likely to appear this year. 4.2.3 hasn't appeared in last 3 years, extremely likely to show up.
+Predict what might come up on next paper.
+Hardcode specification containing all numbers.
+Read from PDF files the numbers of previous years.
+
+/*
+Example specification:
+
+const chemistry = {
+    "4.1.1": "Atoms",
+    "4.1.2": "Bonds",
+    "4.1.3": "Fractional Distillation"
+};
+ */
+
+// read pdf files from past 5 years and use these to predict what will be on the paper.
