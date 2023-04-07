@@ -1,7 +1,5 @@
 mod csv_reader;
 
-use std::collections::HashMap;
-
 struct Specification {
     code: String,
     label: String,
