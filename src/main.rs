@@ -11,8 +11,8 @@ struct Specification {
 impl Specification {
     fn new(code: &str, label: &str, occurrences: i32) -> Specification {
         Specification {
-            code,
-            label,
+            code: code.to_string(),
+            label: label.to_string(),
             occurrences
         }
     }
