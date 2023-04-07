@@ -1,3 +1,5 @@
+#![forbid(unsafe_code)]
+
 mod csv_reader;
 
 struct Specification {
